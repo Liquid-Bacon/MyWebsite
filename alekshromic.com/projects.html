@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<title>Projects</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<html>
+
+<body class="w3-light-grey">
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="projects.html">Projects</a>
+        <a href="resume.html">Resume</a>
+        <c> Last updated: 09/21/23</c>
+    </div>
+
+    <div class="w3-content w3-margin-top" style="max-width:1600px;">
+        <div class="w3-row-padding">
+            <!-- Left Column -->
+            <div class="w3-half">
+                <div class="slideshow w3-container">
+
+                    <!-- First Project -->
+                    <div class="w3-content w3-card w3-white w3-display-container">
+                        <img class="mySlides fade" src="w3images/1.PNG">
+                        <img class="mySlides fade" src="w3images/2.PNG">
+                        <img class="mySlides fade" src="w3images/3.PNG">
+                        <img class="mySlides fade" src="w3images/4.PNG">
+                        <a class="prev" onclick="plusDivs(-1, 0)">&#10094;</a>
+                        <a class="next" onclick="plusDivs(1, 0)">&#10095;</a>
+                    </div>
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentDiv(1, 0)"></span>
+                        <span class="dot" onclick="currentDiv(2, 0)"></span>
+                        <span class="dot" onclick="currentDiv(3, 0)"></span>
+                        <span class="dot" onclick="currentDiv(4, 0)"></span>
+                    </div>
+
+                    <div class="w3-container w3-card w3-white w3-marigin-bottom">
+                        <div class="w3-container">
+                            <h2 class="w3-text-grey w3-padding-14"><i class="fa fa-ship fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Battleship</h2>
+                            <p>
+                                Battleship was the first project I ever made from coding.
+                                When I had free time in high school, I created this game.
+                                With that being said, from there, I knew I wanted to be a programmer.
+                                I coded the game in Java with a GUI, to make the game playable without having to type in the console.
+                                Coding this game in Java taught me to not only think on my feet, but explore other solutions when something is not quite working right.
+                                When this occured, I had to browse through hundreds of lines of code, across 7 different Java files to figure out what the problem was and then code a workaround.
+                                Java is not the easiest language to use to make games so having this experience gave me a strong base for any other project I could make.
+                            </p>
+                            <p>
+                                If you would like to try the game out, please click <a href="Battleship.zip">here</a> to download!
+                            </p>
+                        </div>
+                    </div>
+                        <br>
+                        <div class="w3-container w3-card w3-white">
+                            <div class="w3-container">
+                                <h2 class="w3-text-grey w3-padding-14"><i class="fa fa-check fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>To-Do List</h2>
+                                <p>
+                                    To test my skills in CSS, I decided to style a to-do list I found online. 
+                                    This simple to-do list can keep track of what you need to do as well as being able to set the task as complete.
+                                    I styled a few things including the buttons, background, and shape of text boxes.
+                                    Althought the styling is not perfect, it is a project I want to continue working on to make it look exactly how I want it.
+                                </p>
+                                <p>
+                                    Click <a href="todo.html">here</a> to view the to-do list
+                                </p>
+                            </div>
+                            <br>
+
+                        </div>
+
+                </div>
+                
+            </div>
+
+            <div class="slideshow w3-container w3-half">
+
+                <div class="w3-content w3-card w3-white w3-display-container">
+                    <img class="mySlides fade" src="w3images/fb2.PNG">
+                    <img class="mySlides fade" src="w3images/fb3.PNG">
+                    <img class="mySlides fade" src="w3images/fb1.PNG">
+                    <a class="prev" onclick="plusDivs(-1, 1">&#10094;</a>
+                    <a class="next" onclick="plusDivs(1, 1)">&#10095;</a>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentDiv(1, 1)"></span>
+                    <span class="dot" onclick="currentDiv(2, 1)"></span>
+                    <span class="dot" onclick="currentDiv(3, 1)"></span>
+                </div>
+
+                <div class="w3-container w3-card w3-white w3-marigin-bottom">
+                    <div class="w3-container">
+                        <h2 class="w3-text-grey w3-padding-14"><i class="fa fa-music fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Chamasoko</h2>
+                        <p>
+                            Chamasoko, a startup project I worked on last year, is a program that allows users to find local events where they can request songs to the DJs.
+                            Unfortunetly, the project did not make it to market due to backing issues, but it allowed me to build experience in HTML, CSS, JavaScript, and FireBase.
+                            For this project, I created the login and create account page from scratch.
+                            I also linked the pages to the FireBase database we were using.
+                            This project gave me experience in languages that I had no prier in, and because of this, I was able to quickly learn how to make this website.
+                        </p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
